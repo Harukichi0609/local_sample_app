@@ -1,0 +1,100 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+20181226005312_create_users.rb	db/migrate/20181226005312_create_users.rb	1;"	F
+20181227121157_add_index_to_users_email.rb	db/migrate/20181227121157_add_index_to_users_email.rb	1;"	F
+20181227133327_add_pasword_degest_to_users.rb	db/migrate/20181227133327_add_pasword_degest_to_users.rb	1;"	F
+404.html	public/404.html	1;"	F
+422.html	public/422.html	1;"	F
+500.html	public/500.html	1;"	F
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddIndexToUsersEmail	db/migrate/20181227121157_add_index_to_users_email.rb	/^class AddIndexToUsersEmail < ActiveRecord::Migration[5.2]$/;"	c
+AddPaswordDegestToUsers	db/migrate/20181227133327_add_pasword_degest_to_users.rb	/^class AddPaswordDegestToUsers < ActiveRecord::Migration[5.2]$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:SampleApp
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+ApplicationSystemTestCase	test/application_system_test_case.rb	/^class ApplicationSystemTestCase < ActionDispatch::SystemTestCase$/;"	c
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+CreateUsers	db/migrate/20181226005312_create_users.rb	/^class CreateUsers < ActiveRecord::Migration[5.2]$/;"	c
+SampleApp	config/application.rb	/^module SampleApp$/;"	m
+StaticPagesController	app/controllers/static_pages_controller.rb	/^class StaticPagesController < ApplicationController$/;"	c
+StaticPagesControllerTest	test/controllers/static_pages_controller_test.rb	/^class StaticPagesControllerTest < ActionDispatch::IntegrationTest$/;"	c
+StaticPagesHelper	app/helpers/static_pages_helper.rb	/^module StaticPagesHelper$/;"	m
+User	app/models/user.rb	/^class User < ApplicationRecord$/;"	c
+UserController	app/controllers/user_controller.rb	/^class UserController < ApplicationController$/;"	c
+UserHelper	app/helpers/user_helper.rb	/^module UserHelper$/;"	m
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersControllerTest	test/controllers/users_controller_test.rb	/^class UsersControllerTest < ActionDispatch::IntegrationTest$/;"	c
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+application.js	app/assets/javascripts/application.js	1;"	F
+application.rb	config/application.rb	1;"	F
+application_controller.rb	app/controllers/application_controller.rb	1;"	F
+application_controller_renderer.rb	config/initializers/application_controller_renderer.rb	1;"	F
+application_helper.rb	app/helpers/application_helper.rb	1;"	F
+application_job.rb	app/jobs/application_job.rb	1;"	F
+application_mailer.rb	app/mailers/application_mailer.rb	1;"	F
+application_record.rb	app/models/application_record.rb	1;"	F
+application_system_test_case.rb	test/application_system_test_case.rb	1;"	F
+assets.rb	config/initializers/assets.rb	1;"	F
+b.sh	b.sh	1;"	F
+backtrace_silencers.rb	config/initializers/backtrace_silencers.rb	1;"	F
+boot.rb	config/boot.rb	1;"	F
+bundle	bin/bundle	1;"	F
+cable.js	app/assets/javascripts/cable.js	1;"	F
+change	db/migrate/20181226005312_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+change	db/migrate/20181227121157_add_index_to_users_email.rb	/^  def change$/;"	f	class:AddIndexToUsersEmail
+change	db/migrate/20181227133327_add_pasword_degest_to_users.rb	/^  def change$/;"	f	class:AddPaswordDegestToUsers
+channel.rb	app/channels/application_cable/channel.rb	1;"	F
+connection.rb	app/channels/application_cable/connection.rb	1;"	F
+content_security_policy.rb	config/initializers/content_security_policy.rb	1;"	F
+cookies_serializer.rb	config/initializers/cookies_serializer.rb	1;"	F
+development.rb	config/environments/development.rb	1;"	F
+environment.rb	config/environment.rb	1;"	F
+filter_parameter_logging.rb	config/initializers/filter_parameter_logging.rb	1;"	F
+gravatar_for	app/helpers/users_helper.rb	/^        def gravatar_for(user)$/;"	f	class:UsersHelper
+hello	app/controllers/application_controller.rb	/^        def hello$/;"	f	class:ApplicationController
+help	app/controllers/static_pages_controller.rb	/^  def help$/;"	f	class:StaticPagesController
+home	app/controllers/static_pages_controller.rb	/^  def home$/;"	f	class:StaticPagesController
+inflections.rb	config/initializers/inflections.rb	1;"	F
+manifest.js	app/assets/config/manifest.js	1;"	F
+mime_types.rb	config/initializers/mime_types.rb	1;"	F
+new	app/controllers/user_controller.rb	/^  def new$/;"	f	class:UserController
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+production.rb	config/environments/production.rb	1;"	F
+puma.rb	config/puma.rb	1;"	F
+rails	bin/rails	1;"	F
+rake	bin/rake	1;"	F
+routes.rb	config/routes.rb	1;"	F
+schema.rb	db/schema.rb	1;"	F
+seeds.rb	db/seeds.rb	1;"	F
+setup	bin/setup	1;"	F
+setup	test/models/user_test.rb	/^ def setup$/;"	f	class:UserTest
+spring.rb	config/spring.rb	1;"	F
+static_pages_controller.rb	app/controllers/static_pages_controller.rb	1;"	F
+static_pages_controller_test.rb	test/controllers/static_pages_controller_test.rb	1;"	F
+static_pages_helper.rb	app/helpers/static_pages_helper.rb	1;"	F
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
+test.rb	config/environments/test.rb	1;"	F
+test_helper.rb	test/test_helper.rb	1;"	F
+update	bin/update	1;"	F
+user.rb	app/models/user.rb	1;"	F
+user_controller.rb	app/controllers/user_controller.rb	1;"	F
+user_helper.rb	app/helpers/user_helper.rb	1;"	F
+user_test.rb	test/models/user_test.rb	1;"	F
+users_controller.rb	app/controllers/users_controller.rb	1;"	F
+users_controller_test.rb	test/controllers/users_controller_test.rb	1;"	F
+users_cotroller_test.rb	users_cotroller_test.rb	1;"	F
+users_helper.rb	app/helpers/users_helper.rb	1;"	F
+wrap_parameters.rb	config/initializers/wrap_parameters.rb	1;"	F
+yarn	bin/yarn	1;"	F
